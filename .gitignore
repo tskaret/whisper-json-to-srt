@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.log
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Build and test artifacts
+test_*/
+output_*/
+*_test/
+*_output/
+verification_*/
+timing_comparison/
+subtitle_sync/
+md5_baseline_outputs/
+corrected_extreme/
+fixed_output*/
+
+# Audio/Video files (large)
+*.mp3
+*.wav
+*.mp4
+*.avi
+*.flac
+*.m4a
+
+# Large data files
+*.zip
+huge.json
+
+# Generated images
+*.png
+*.gif
+*.jpg
+*.jpeg
+
+# Temporary files
+nul
+*.tmp
+*.bak
+*_backup.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific output directories
+05-SF/
+advanced_detection_test/
+energy_drop_test/
+rms_threshold_test/
